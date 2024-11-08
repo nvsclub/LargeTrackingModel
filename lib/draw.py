@@ -45,12 +45,12 @@ colors = {
     'football':["#CBB67C","#663831"]
 }
 
-def preprocess_data(tracking_data, players_data):
-    """
-    merges data for the `animate_play()` function 
-    """
-    tracking_df = pd.merge(df,players,how="left",on = ["nflId",'displayName'])
-    return tracking_df
+# def preprocess_data(tracking_data, players_data):
+#     """
+#     merges data for the `animate_play()` function 
+#     """
+#     tracking_df = pd.merge(df,players,how="left",on = ["nflId",'displayName'])
+#     return tracking_df
 
 def hex_to_rgb_array(hex_color):
     """

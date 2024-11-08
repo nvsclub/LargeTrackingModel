@@ -1,3 +1,5 @@
 *.csv
+*.feather
 *.json
 *.zip
+__pycache__
